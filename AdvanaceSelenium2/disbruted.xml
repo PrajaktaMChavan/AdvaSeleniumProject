@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="makeupproduct" parellel="ture">
+    <classes>
+      <class name="TestScript.Ponds"/>
+      <class name="TestScript.Maybelline"/>
+      <class name="TestScript.Meesho"/>
+      <class name="TestScript.Swissbeauty"/>
+      
+      <class name="TestScript.Lakame"/>
+      <class name="TestScript.SugarCosmetics"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="onlineshoping" parallel="true">
+	  <classes>
+		    <class name="TestScript.Flipcart"/>
+		     <class name="TestScript.Meesho"/>
+		     <class name="TestScript.purple"/>
+		     <class name="TestScript.nykaa"/>
+		     <class name="TestScript.myntra"/>
+		
+   </classes>
+		     
+	  
+  </test>
+ 
+  
+</suite> <!-- Suite -->
